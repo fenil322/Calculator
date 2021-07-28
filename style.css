@@ -1,0 +1,83 @@
+body{
+    background-image: url(./photos/binary-6475780_1920.jpg);
+}
+.container{
+    position: relative;
+}
+.calculator {
+    border: 2px solid blue;
+    width: 18rem;
+    /* height: 28rem; */
+    background-color: rgb(160, 238, 225);
+    border-radius: 1rem;
+    position: relative;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgb(222, 233, 164,0.4);
+    
+
+}
+.calculator .result{
+    height: 5rem;
+    position: absolute;
+}
+
+.calculator .result #history{
+    width: 16.5rem;
+ text-align: right;
+ color: #919191;
+ font-size: 1.1rem;
+
+ 
+}
+.calculator .result #output{
+    text-align: right;
+    font-size: 1.7rem;
+    /* border: 1px solid black; */
+    padding: -1rem;
+    margin: -0.5rem auto;
+    /* margin: -0.8rem 1.3rem; */
+}
+
+.calculator .keyboard{
+    margin-top: 7rem;
+    height: 20.5rem;
+    text-align: center;
+}
+.operator, .empty, .number{
+width: 3.1rem;
+height: 3.1rem;
+margin: 0.5rem;
+border-radius: 1.3rem;
+border-width: 0px;
+font-weight: bold;
+font-size: 1.1rem;
+box-shadow:3px 3px 3px rgba(115, 174, 192, 0.4);
+}
+
+.operator:hover, .empty:hover, .number:hover{
+    background-color: rgb(218, 155, 155);
+    border-radius: 1rem;
+    width: 3.3rem;
+    height: 3.3rem;
+    margin: 0.4rem;
+
+
+}
+#backapace,#clear{
+    background-color: rgb(228, 200, 125);
+}
+#backapace:hover,#clear:hover{
+    background-color: rgb(127, 218, 127);
+}
+.number:hover{
+    background-color: rgb(200, 158, 240);
+}
+.empty{
+    /* background: ; */
+}
+ .number{
+    background-color: rgb(93, 219, 219);
+}
+.number, .operator{
+    cursor: pointer;
+}
